@@ -34,3 +34,10 @@ h1 {
 .btn:active {
     background: #FFF;
 }
+
+@media (max-width:600px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
