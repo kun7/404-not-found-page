@@ -1,0 +1,22 @@
+body {
+    font-family: 'Space Mono', monospace;
+}
+/* layout */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* columns */
+.text {
+    padding: 40px;
+    background: white;
+}
+/* button */
+.btn {
+    margin-top: 1em;
+    padding: 24px 43px;
+    background: #333333;
+    color:#FFF;
+}
