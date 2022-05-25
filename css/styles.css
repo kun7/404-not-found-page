@@ -7,11 +7,17 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+h1 {
+    font-size: 48px;
+    width: 500px    ;
+}
 /* columns */
-.text {
+.text p{
     padding: 40px;
-    background: white;
+    width: 400px;
+    font-size: 24px;
+    font-style: normal;
+
 }
 /* button */
 .btn {
@@ -19,4 +25,12 @@ body {
     padding: 24px 43px;
     background: #333333;
     color:#FFF;
+}
+
+.btn:hover {
+    background: green;
+}
+
+.btn:active {
+    background: #FFF;
 }
